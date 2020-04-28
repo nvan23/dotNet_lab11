@@ -36,9 +36,9 @@
                  <asp:GridView 
                      ID="GrvStudent" 
                      runat="server" 
-                     AllowPaging="true" 
+                     AllowPaging="True" 
                      CellPadding="4" 
-                     AutoGenerateColumns="false"
+                     AutoGenerateColumns="False"
                      ForeColor="#333333" 
                      BorderColor="Black"  
                      OnPageIndexChanging="GrvStudent_PageIndexChanging"
@@ -55,7 +55,7 @@
                         <asp:BoundField HeaderText="Họ Tên" DataField="HoTenSV" ReadOnly="true"/>
                         <asp:BoundField HeaderText="Mã Lớp" DataField="MaLop" ReadOnly="true"/>
                         <asp:BoundField HeaderText="Điểm" DataField="GiaTri" />
-                        <asp:CommandField EditText="Cập Nhật Điểm" ShowEditButton="true" UpdateText="Lưu" CancelText="Thoát" ShowCancelButton="true"/>
+                        <asp:CommandField EditText="Cập Nhật Điểm" ShowEditButton="true" UpdateText="Lưu" CancelText="Thoát" ShowCancelButton="true" HeaderText="Thao tác"/>
                      </Columns>
 
                     <AlternatingRowStyle BackColor="White" />
